@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+body {
+	background-image: url("../images/awit-cover-desktop.svg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	body{
+		background-image: url("../images/awit-cover-mobile.svg");
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+}
+
+#addSongNav {
+	font-weight: 900;	
+	background-color: magenta;
+}
+
+#HNavTxt, #AddSongTxt {
+	color: #080a52;
+}
+
+#a-add-song, #a-vinyl-fix {
+	color: #080a52;
+}
+
+#addsong-btn {
+	background-color: #080a52;
+	color: #92E56F;
+	border-radius: 7px;
+	border-width: 3px;
+	border-color: #080a52;
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	color: #080a52;
+	font-size: 50px;
+}
