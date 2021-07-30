@@ -1,0 +1,18 @@
+#cook-ook, #cook-ed {
+	color: #DC3545;
+}
+#cook-dot {
+	color: #006400;
+}
+#jumbo-profile {
+  background-image: url("../images/jumbo-cover-bg.jpg");
+  background-size: cover;
+}
+.lead {
+	font-size: 2rem;
+	font-weight: normal;
+}
+#jumbo-profile-fetch {
+	background-image: url("../images/sugar-profile-fetch.svg");
+	background-size: cover;
+}

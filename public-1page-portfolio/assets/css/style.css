@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#landing-jumbo {
+	height: 75vh;
+	display: flex;
+	background-color: #6DCCDE;
+	align-items: center;
+	color: #fff;
+}
+
+h1, h2 {
+	font-family: 'Zilla Slab', serif;
+}
+
+#profile-picture {
+	background-image: url("../images/me.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 50vh;
+}
+
+.tech-stack {
+	height: 100px;
+	margin-top: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#html {
+	background-image: url("../images/html.png");
+}
+
+#css {
+	background-image: url("../images/css.png");
+}
+
+#js {
+	background-image: url("../images/js.png");
+}
+
+#gitlab {
+	background-image: url("../images/gitlab.png");
+}
+
+#google {
+	background-image: url("../images/google.jpeg");
+}
+
+#work-button {
+	margin: 20px;
+}
+
+body {
+	background-color: gray;
+}
+
+#main-section {
+	background-color: #fff;
+	padding: 70px;
+	border-radius: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+}

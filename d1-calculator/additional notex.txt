@@ -1,0 +1,9 @@
+EVENT LISTENERS:
+
+Example
+
+const button = document.querySelector(".btn")
+
+button.addEventListener("click", event => {
+  console.log("Hello!");
+})

@@ -1,0 +1,14 @@
+#cook-ook, #cook-ed {
+	color: #DC3545;
+}
+#cook-dot {
+	color: #006400;
+}
+.jumbotron {
+  background-image: url("../images/jumbo-cover-bg.jpg");
+  background-size: cover;
+}
+.lead {
+	font-size: 2rem;
+	font-weight: normal;
+}
