@@ -6,8 +6,12 @@
 
 	<!-- Bootsrap CDN  -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Gowun+Batang&family=Poiret+One&family=Spartan:wght@200&display=swap" rel="stylesheet">
 	<!-- External CSS -->
-	<!-- <link rel="stylesheet" href="#"> -->
+	<link rel="stylesheet" href="./assets/css/index.css">
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/web-favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/web-favicon/favicon-32x32.png">
@@ -17,23 +21,21 @@
 	<title>Kez Evangelista</title>
 </head>
 <body>
-	<main>
+	<main class="wrapper container">
 		<header>
-			<h2>Kumusta, world!</h2> <!-- animation for different hello languages -->
+			<h2><span></span> world!</h2> <!-- animation for different hello languages -->
 		</header>
 		<section>
-			<h1>I am Kez.</h1> <!-- animation for the logo letter z -->
+			<h1>I am Ke<img src="./assets/images/web-favicon/favicon-32x32.png" alt="">.</h1> <!-- animation for the logo letter z -->
 		</section>
 		<section>
 			<h2>
 				A content strategist, a full-stack web developer, and a several odd things. <!-- link to things i do and interesthings -->
 			</h2>
 		</section>
-		<section id="curious-btn"> <!-- animation for the color of the section -->
-			<form action="about.html">
-    			<input type="submit" value="Curious?" />
-			</form>
-		</section>
+		<div id="curious">
+			<a href="./portfolio-pages/about.html" target="_blank"><h3>Curious?</h3></a>
+		</div>
 	</main>
 	<!-- External JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
